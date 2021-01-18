@@ -29,6 +29,7 @@ There have been many recent machine learning tools described for image segmentat
 FIJI/ImageJ is a powerful and user-friendly image analysis software widely adopted in the biological community. Within FIJI/ImageJ, the Regions of Interest (ROIs) are an effective way to identify objects prior to making different analyses. However, there is currently no easy nor efficient way for transforming the information stored in label images to ROIs. The objective of this plugin is to provide an easy to use tool to accomplish this.
 
 <a name="labelimage"></a>
+
 **Brief introduction to label images**
 -------------------
 
@@ -204,7 +205,34 @@ As an example, in the figure below there is a set of example images used to run 
 
 **Segmentation pipeline with Cellpose and LabelsToROIs**
 -------------------
-Lorem ipsum
+Cellpose is a segmentation algorithm developed by Carsen Stringer, Tim Wang, Michalis Michaelos and Marius Pachitariu and published in <a href="https://www.nature.com/articles/s41592-020-01018-x">Nature Protocols</a> in 2021.
+It can segment skeletal myofibers and other cell types with incredible accuracy. For more information, visit their <a href="https://github.com/MouseLand/cellpose">Github page</a>.
+
+#### Cellpose segmentation using the GUI
+It can be used with a user interface (GUI) that can be downloaded from their Github page. However, the current version of the GUI is limited to single image segmentation and runs on the CPU, being much slower than the script version that can run on the GPU. For a tutorial on the GUI, watch the following video:
+
+
+<p align="center">
+  <a href="https://youtu.be/2ANILvqca6Q" target="_blank">
+    <img border="0" alt="W3Schools" src="./Images/logo-GUI.png">
+  </a>
+</p>
+
+#### Cellpose segmentation GoogleColab
+Cellpose can run much faster on a GPU (video card) using a python script. An easy solution for non-programmers is to run the following python script on GoogleColab, which is a modified version from the original script developed by Matteo Carandini (see Cellpose Githuab page).  
+
+Here's a link to our modified GoogleColab script: <p> <a href="https://colab.research.google.com/drive/1958UQIH-XAYogKvbxnaUHALYvR73KLj2?usp=sharing" target="_blank">
+    <img border="0" alt="W3Schools" src="./Images/GoogleColab.svg">
+  </a>
+</p>
+
+For a tutorial on running Cellpose with GoogleColab, watch the following video:
+
+<p align="center">
+  <a href="https://youtu.be/rY_w0qXjGkc" target="_blank">
+    <img border="0" alt="W3Schools" src="./Images/logo-colab.png">
+  </a>
+</p>
 
 
 <a name="cite"/>
