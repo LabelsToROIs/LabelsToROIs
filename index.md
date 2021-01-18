@@ -3,6 +3,15 @@
 LabelsToROIs is a FIJI/imageJ plugin that provides the tools to generate the regions of interest (ROIs) from label images. It also allows to adjust the size of these ROIs and to generate measurements from the original images in the different channels.
 
 
+## Table of Contents
+1. [Installation](#installation)
+2. [Why this plugin?](#example2)
+3. [Brief introduction to label images](#labelimage)
+4. [How to use LabelsToROIs](#fourth-examplehttpwwwfourthexamplecom)
+5. [Full segmentation pipieline with Cellpose and LabelsToROIs](#third-example)
+6. [Citation](#third-example)
+
+<a name="installation"/>
 **Installation**
 -------------------
 Download the "Labels_To_Rois.py" by downloading the compressed ZIP or the TAR files from the links above.
@@ -17,6 +26,7 @@ There have been many recent machine learning tools described for image segmentat
 
 FIJI/ImageJ is a powerful and user-friendly image analysis software widely adopted in the biological community. Within FIJI/ImageJ, the Regions of Interest (ROIs) are an effective way to identify objects prior to making different analyses. However, there is currently no easy nor efficient way for transforming the information stored in label images to ROIs. The objective of this plugin is to provide an easy to use tool to accomplish this.
 
+<a name="labelimage"></a>
 **Brief introduction to label images**
 -------------------
 
