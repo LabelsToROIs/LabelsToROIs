@@ -5,14 +5,13 @@ LabelsToROIs is a FIJI/imageJ plugin that provides the tools to generate the reg
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Why this plugin?](#example2)
+2. [Why this plugin?](#why)
 3. [Brief introduction to label images](#labelimage)
-4. [How to use LabelsToROIs](#fourth-examplehttpwwwfourthexamplecom)
-5. [Full segmentation pipieline with Cellpose and LabelsToROIs](#third-example)
-6. [Citation](#third-example)
+4. [How to use LabelsToROIs](#usage)
+5. [Full segmentation pipieline with Cellpose and LabelsToROIs](#cellpose)
+6. [Citation](#cite)
 
 <a name="installation"/>
-
 
 **Installation**
 -------------------
@@ -20,6 +19,7 @@ Download the "Labels_To_Rois.py" by downloading the compressed ZIP or the TAR fi
 
 Copy the "Labels_To_Rois.py" file into the FIJI/ImageJ plugins folder and restart the program. You will find the plugin in the "plugins" tab of FIJI/ImageJ.
 
+<a name="why"/>
 
 **Why this plugin?**
 -------------------
@@ -39,6 +39,9 @@ When analyzing images in biology, it is often desired to identify certain object
 *Figure 1. (A) Example of a laminin staining in a PFA fixed cross section of mouse skeletal muscle. (B) Binary mask corresponding to the myofibers. (C-D) Labels generated from the binary mask in grayscale (C) or with color coded labels (D).*
 
 Another way of identifying objects in images is by labelling them with unique identifiers. Here, instead of all objects having the same color (white), each of them has a specific color that distinguishes it from the rest (Fig. 1C). This is especially useful for objects that are touching each other, and thus do not have any black background in between. Usually, label images are grayscale images, either of 8 or 16 bits, depending on the number of objects they have. For example, an 8-bit image has 256 different shades of gray, ranging from black to white. Thus, considering the background with value equals to 0, an 8-bit label image can store up to 255 objects. Similarly, a 16-bit image can store up to 65,535 objects. It is important to note that the pixel value of the objects in the label image works as an identifier and nothing else. Thus, to make the visualization of label images easier one can assign random colors to each object (Fig. 1D).
+
+
+<a name="usage"/>
 
 **How to use LabelsToROis**
 -------------------
@@ -196,6 +199,15 @@ As an example, in the figure below there is a set of example images used to run 
 </tbody></table>
 
 </center>
+
+<a name="cellpose"/>
+
+**Segmentation pipeline with Cellpose and LabelsToROIs**
+-------------------
+Lorem ipsum
+
+
+<a name="cite"/>
 
 **Citation**
 -------------------
