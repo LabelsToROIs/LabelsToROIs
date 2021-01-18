@@ -221,10 +221,9 @@ It can be used with a user interface (GUI) that can be downloaded from their Git
 #### Cellpose segmentation GoogleColab
 Cellpose can run much faster on a GPU (video card) using a python script. An easy solution for non-programmers is to run the following python script on GoogleColab, which is a modified version from the original script developed by Matteo Carandini (see Cellpose Githuab page).  
 
-Here's a link to our modified GoogleColab script: <p> <a href="https://colab.research.google.com/drive/1958UQIH-XAYogKvbxnaUHALYvR73KLj2?usp=sharing" target="_blank">
+Here's a link to our modified GoogleColab script: <a href="https://colab.research.google.com/drive/1958UQIH-XAYogKvbxnaUHALYvR73KLj2?usp=sharing" target="_blank">
     <img border="0" alt="W3Schools" src="./Images/GoogleColab.svg">
   </a>
-</p>
 
 For a tutorial on running Cellpose with GoogleColab, watch the following video:
 
