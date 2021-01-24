@@ -238,6 +238,8 @@ For a tutorial on running Cellpose with GoogleColab, watch the following video:
 
 **Citation**
 -------------------
-This plugin was written by Ariel Waisman with the help of Daniel Kopinke, Alessandra Norris and Martín Elías Costa.
+This plugin was written by Ariel Waisman with the help of Martín Elías Costa, Alessandra Norris and Daniel Kopinke.
 
-Manuscript in preparation.
+**Automatic and unbiased segmentation and quantification of myofibers in skeletal muscle.**
+*Ariel Waisman, Alessandra Norris, Martín Elías Costa, Daniel Kopinke*. BiorXiv.
+doi: https://doi.org/10.1101/2021.01.20.427432
