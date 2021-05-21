@@ -77,7 +77,7 @@ After choosing the &quot;Simple image&quot; button from the main menu, a new win
 
 <div style="text-align:center" align="center"><img src="./Images/Plugin-Window2.png" width="500"/></div>
 
-Here, a label image must be selected using the browse button. The label image can be either in &quot;PNG&quot; or &quot;TIF&quot; format. Optionally, the original image corresponding to that label can be provided. The label and original images must have the same pixel resolution. If an original image is included, after pressing the &quot;Next&quot; button this image will be opened. The ROIs will begin populating the image and the progress can be followed through the progress bar. If only a label image is chosen, this image will be opened, and the ROIs will be displayed here. The time for this task to be completed highly depends on the image resolution and the number of objects to be converted to ROIs.
+Here, a label image must be selected using the browse button. The label image with the segmentations can be either in &quot;PNG&quot; or &quot;TIF&quot; format. Optionally, the original image corresponding to that label can be provided, which can be in any image type format. The label and original images must have the same pixel resolution. If an original image is included, after pressing the &quot;Next&quot; button this image will be opened. The ROIs will begin populating the image and the progress can be followed through the progress bar. If only a label image is chosen, this image will be opened, and the ROIs will be displayed here. The time for this task to be completed highly depends on the image resolution and the number of objects to be converted to ROIs.
 
 After completing, a new dialog will become visible.
 
@@ -235,6 +235,13 @@ For a tutorial on running Cellpose with GoogleColab, watch the following video:
 
 
 <a name="cite"/>
+
+**Help**
+-------------------
+In case of difficulties using the plugin, create an issue in the following link so we or someone from the community can help you:
+
+https://github.com/ariel-waisman/LabelsToROIs/issues
+
 
 **Citation**
 -------------------
