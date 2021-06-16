@@ -247,6 +247,4 @@ In case of difficulties using the plugin, create an issue in the following link 
 -------------------
 This plugin was written by Ariel Waisman with the help of Martín Elías Costa, Alessandra Norris and Daniel Kopinke.
 
-**Automatic and unbiased segmentation and quantification of myofibers in skeletal muscle.**
-*Ariel Waisman, Alessandra Norris, Martín Elías Costa, Daniel Kopinke*. BiorXiv.
-doi: <a href="https://doi.org/10.1101/2021.01.20.427432">https://doi.org/10.1101/2021.01.20.427432</a>.
+Waisman, A., Norris, A. ., Elías Costa , . et al. Automatic and unbiased segmentation and quantification of myofibers in skeletal muscle. Sci Rep 11, 11793 (2021). doi: <a href="https://doi.org/10.1038/s41598-021-91191-6">https://doi.org/10.1038/s41598-021-91191-6</a>.
