@@ -240,7 +240,7 @@ For a tutorial on running Cellpose with GoogleColab, watch the following video:
 -------------------
 In case of difficulties using the plugin, create an issue in the following link so we or someone from the community can help you:
 
-https://github.com/ariel-waisman/LabelsToROIs/issues
+https://github.com/LabelsToROIs/LabelsToROIs.github.io/issues
 
 
 **Citation**
