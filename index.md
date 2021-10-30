@@ -1,6 +1,6 @@
 # LabelsToROIs
 
-LabelsToROIs is a FIJI/imageJ plugin that provides the tools to generate the regions of interest (ROIs) from label images. It also allows to adjust the size of these ROIs and to generate measurements from the original images in the different channels.
+LabelsToROIs is a FIJI plugin that provides the tools to generate the regions of interest (ROIs) from label images. It also allows to adjust the size of these ROIs and to generate measurements from the original images in the different channels.
 
 
 ## Table of Contents
@@ -17,7 +17,7 @@ LabelsToROIs is a FIJI/imageJ plugin that provides the tools to generate the reg
 -------------------
 Download the "Labels_To_Rois.py" by downloading the compressed ZIP or the TAR files from the links above.
 
-Copy the "Labels_To_Rois.py" file into the FIJI/ImageJ plugins folder and restart the program. You will find the plugin in the "plugins" tab of FIJI/ImageJ.
+Copy the "Labels_To_Rois.py" file into the FIJI plugins folder and restart the program. You will find the plugin in the "plugins" tab of FIJI.
 
 <a name="why"/>
 
@@ -26,7 +26,7 @@ Copy the "Labels_To_Rois.py" file into the FIJI/ImageJ plugins folder and restar
 
 There have been many recent machine learning tools described for image segmentation and object detection that work astoundingly well, and probably much more to come. In many cases, these algorithms generate their output in the form of labeled images. For a computer scientist or a user well versed in image analysis using programming languages such as Python or MATLAB, the use of label images is common practice, and thus they can rapidly incorporate these algorithms to their everyday routines. However, other users without this specific knowledge are significantly more limited in taking advantage of these tools.
 
-FIJI/ImageJ is a powerful and user-friendly image analysis software widely adopted in the biological community. Within FIJI/ImageJ, the Regions of Interest (ROIs) are an effective way to identify objects prior to making different analyses. However, there is currently no easy nor efficient way for transforming the information stored in label images to ROIs. The objective of this plugin is to provide an easy to use tool to accomplish this.
+FIJI is a powerful and user-friendly image analysis software widely adopted in the biological community. Within FIJI, the Regions of Interest (ROIs) are an effective way to identify objects prior to making different analyses. However, there is currently no easy nor efficient way for transforming the information stored in label images to ROIs. The objective of this plugin is to provide an easy to use tool to accomplish this.
 
 <a name="labelimage"></a>
 
